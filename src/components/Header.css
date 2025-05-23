@@ -1,0 +1,41 @@
+.header {
+  padding: 20px 10px;
+
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__title {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.search-form__input {
+  height: 40px;
+  width: 150px;
+  box-sizing: border-box;
+
+  border-radius: 10px 0px 0px 10px;
+
+  border-right: none;
+}
+
+.search-form__input:focus {
+  outline: none;
+}
+
+.search-form__button {
+  height: 40px;
+
+  border-radius: 0px 10px 10px 0px;
+}

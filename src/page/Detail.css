@@ -1,0 +1,24 @@
+.animal-detail-box {
+  display: flex;
+  justify-content: center;
+
+  gap: 10px;
+}
+
+.animal-detail-box__image {
+  width: 200px;
+}
+
+.animal-detail-text-box__title {
+  font-size: 1.5rem;
+  font-weight: 500;
+
+  margin-bottom: 10px;
+}
+
+@media (width < 450px) {
+  .animal-detail-box {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
